@@ -42,5 +42,100 @@
 	<dt>Java Script</dt>
 	<dt>Bootstrap</dt>
 </dl>
+<!-- Table -->
+<table border="2">
+	<thead>
+		<tr>
+			<th>S.No</th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Salary</th>
+			<th>Profession</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Nagarjuna Reddy Mandati</td>
+			<td>22</td>
+			<td>25000</td>
+			<td>Software Developer</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Venkata Reddy Mandati</td>
+			<td>28</td>
+			<td>25000</td>
+			<td>Software Tester</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Krishna Reddy Eadara</td>
+			<td>22</td>
+			<td>20000</td>
+			<td>Civil Serveyor</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Chandu Komatigunta</td>
+			<td>24</td>
+			<td>20000</td>
+			<td>Teacher</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Yashaswini Buddharam</td>
+			<td>23</td>
+			<td>28000</td>
+			<td>Dot Net Developer</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- div tag -->
+<div style="background-color: grey;">
+	<h1 style="color: tomato;">Nagarjuna Reddy Mandati</h1>
+	<h4>nagarjunamandati937@gmail.com</h4>
+	<p style="background-color: red;">I am an optimist very much interested in learning and being curious about new things.</p>
+</div>
+<!-- forms -->
+<h1 style="color: red;background-color: blue">A simple Register Form in HTML</h1><hr>
+<form> 
+	<fieldset>
+	<legend>Register form </legend><br>
+
+	<label for="Username">User Name</label><br>
+	<input type="text" name="username" placeholder="Username"><br>
+	<label for="Name">Name</label><br>
+	<input type="text" name="name" placeholder="Name"><br>
+	<label for="Email">Email</label><br>
+	<input type="email" name="email" placeholder="Email"><br>
+	<label for="Password">Password</label><br>
+	<input type="password" name="password" placeholder="Password"><br>
+	<label for="genger">Gender</label><br>
+	<input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female">Female<br>
+	<!-- check boxes -->
+	
+	<label>Languages Known </label><br>
+	<label for="telugu">Telugu</label>
+	<input type="checkbox" name="telugu" value="telugu">
+	<label for="hindi">Hindi</label>
+	<input type="checkbox" name="hindi" value="hindi">
+	<label for="english">English</label>
+	<input type="checkbox" name="english" value="telugu"><br>
+	<label for="about">Bio</label>
+	<textarea rows="4" cols="30" name="bio">
+	</textarea><br>
+	<label for="cars">Choose a car:</label>
+	<select id="cars" name="cars"><!-- USE MULTIPLE FOR SELECTING MORE THAN ONE VALUE -->
+	  <option value="volvo">Volvo</option>
+	  <option value="saab">Saab</option>
+	  <option value="fiat">Fiat</option>
+	  <option value="audi">Audi</option>
+	</select><br>
+	<input type="submit" value="Register">
+</fieldset>
+</form>
 </body>
 </html>
