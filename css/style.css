@@ -1,0 +1,73 @@
+
+body{
+	background-color: lightblue;
+} 
+.card{
+	border:2px solid #ddd;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	width:250px;
+	margin: 5px;
+}
+
+a{
+	color: yellow;
+}
+
+img{
+	width: 250px;
+	height: 150px;
+}
+
+.flex-parent{
+	display: flex;   /*it will arrange in equal parts in single row*/
+	flex-wrap: wrap;    /*it will arrange based on screen size in n no. rows*/
+	/*flex-direction: row-reverse;*/
+	justify-content: flex-start;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+  a{
+	color: tomato;
+	}
+	.card{
+	border:2px solid #ddd;
+	background-color: green;
+	color: white;
+	text-align: center;
+	width:250px;
+	margin: 5px;
+}
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  .card{
+	border:2px solid #ddd;
+	background-color: lavender;
+	color: black;
+	text-align: center;
+	width:250px;
+	margin: 5px;
+}
+}
+/**{
+	background-color: #c45e45;
+}*/
+/**{
+	background-image: url("../HTML5/images/RRR.jpeg");
+	background-repeat : no-repeat;
+}*/
+
+/*media queries
+	for mobiles 325px*425px
+	for tablet 426*768
+	for laptop 769*1027px or 1440px or above(based in screen inches)
+
+*/
