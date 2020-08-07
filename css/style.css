@@ -1,6 +1,6 @@
 
 body{
-	background-color: lightblue;
+	background-color: tomato;
 } 
 .card{
 	border:2px solid #ddd;
@@ -27,7 +27,7 @@ img{
 	justify-content: flex-start;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 325px) {
   body {
     background-color: lightgreen;
   }
@@ -43,14 +43,30 @@ img{
 	margin: 5px;
 }
 }
+@media screen and (min-width: 426px) {
+  body {
+    background-color: orange;
+  }
+  a{
+	color: green;
+	}
+	.card{
+	border:2px solid #ddd;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	width:250px;
+	margin: 5px;
+}
+}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 769px) {
   body {
     background-color: lightblue;
   }
   .card{
 	border:2px solid #ddd;
-	background-color: lavender;
+	background-color: tomato;
 	color: black;
 	text-align: center;
 	width:250px;
